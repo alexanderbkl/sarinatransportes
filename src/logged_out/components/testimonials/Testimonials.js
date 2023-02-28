@@ -1,5 +1,9 @@
 import React, { Component } from "react";
-import './styles.css'
+import './styles.css';
+import collage from './images/collage.jpeg';
+import profile from './images/profile.jpeg';
+import hind from './images/hind.jpeg';
+import lateral from './images/lateral.jpeg';
 
 export class testimonials extends Component {
   render() {
@@ -17,7 +21,7 @@ export class testimonials extends Component {
               <div style={{ width: '50%', backgroundColor: '#000033' }}>
                 <div class="col-sm-4" style={{ margin: '10px', color: 'whitesmoke' }}>
                   <div>
-                    <h3 style={{ color: 'red' }}>MUDANZA ECONOMICA BARCELONA BADALONA, POR QUÉ ELEGIRNOS</h3>
+                    <h3 style={{ color: 'red' }}>MUDANZA ECONOMICA, POR QUÉ ELEGIRNOS</h3>
                   </div>
                   <ul>
                     <li>·Muy económico (precios sin competencia).</li>
@@ -32,14 +36,24 @@ export class testimonials extends Component {
               </div>
               <div style={{ width: '50%', backgroundColor: '#330000', color: 'whitesmoke' }}>
                 <div class="col-sm-4" style={{ margin: '10px' }}>
-                  <h3 style={{ color: 'red' }}>ASTROMUDANZAS</h3>
-                  <p>Pep Ventura, 08918 Badalona, Barcelona, Spain</p>
+                  <h3 style={{ color: 'red' }}>SARINA</h3>
+                  <p>Carrer Orrius 8, Hospitalet de Llobregat, Barcelona 08906</p>
                   {/*Email link */}<h3 style={{ color: 'whitesmoke' }}>Email:</h3>
-                  <a href="mailto:astromudanzas@gmail.com">
-                    astromudanzas@gmail.com</a>
-                  <h3 style={{ color: 'whitesmoke' }}>¡LLÁMANOS! <a href="tel:+34617968455">+34 617 96 84 55</a></h3>   </div>
+                  <a href="mailto:sarinamudanzas@gmail.com">
+                    sarinamudanzas@gmail.com</a>
+                  <h3 style={{ color: 'whitesmoke' }}>¡LLÁMANOS! <a href="tel:+34677820093">+34 677 82 00 93</a></h3>   </div>
               </div>
             </div>
+            <br/>
+            <h2>Lo que dicen nuestros clientes</h2>
+          </div>
+          <div className="section-title text-center">
+            <h2>FOTOS</h2>
+            <img width="300px" height="300px" src={collage} alt="collage"/>
+            <img width="300px" height="300px" src={hind} alt="hind"/>
+            <img width="300px" height="300px" src={lateral} alt="lateral"/>
+            <img width="300px" height="300px" src={profile} alt="profile"/>
+
             <br/>
             <h2>Lo que dicen nuestros clientes</h2>
           </div>

@@ -107,14 +107,14 @@ function HeadSection(props) {
   return (
     <Fragment>
       <div  style={{ backgroundColor: "#000428", display: "flex" }}>
-        {/*Create a text next to logo saying "ASTROMUDANZAS" */}
+        {/*Create a text next to logo saying "MUDANZAS SARINA" */}
         <Typography
           variant="h4"
           align="center"
           style={{ color: "#fff", marginTop: "2vh", margin: "10px", display: "flex", justifyContent: "center", alignItems: "center", textAlign: 'left' }}
           className={classes.h4}
         >
-          ASTROMUDANZAS
+          MUDANZAS Y TANSPORTES SARINA
         </Typography>
         <img
           src={logoImage}
@@ -167,7 +167,7 @@ function HeadSection(props) {
                         <Typography
                           variant={isWidthUp("lg", width) ? "h3" : "h6"}
                         >
-                         <b>ASTROMUDANZAS</b> empresa especializada en mudanzas y traslados de cualquier dimensión, garantizamos un servicio de calidad y adaptable dirigido a <b>particulares</b> y <b>empresas</b> ante un traslado de vivienda o de oficinas.
+                         <b>SARINA</b> es una empresa especializada en mudanzas y traslados de cualquier dimensión, garantizamos un servicio de calidad y adaptable dirigido a <b>particulares</b> y <b>empresas</b> ante un traslado de vivienda o de oficinas.
                           
                         </Typography>
                       </Box>
@@ -179,7 +179,7 @@ function HeadSection(props) {
                           size={isWidthUp("sm", width) ? "large" : "medium"}
                           className={classes.extraLargeButton}
                           classes={{ label: classes.extraLargeButtonLabel }}
-                          href="https://wa.me/34617968455?text=Hola,%20me%20interesan%20vuestros%20servicios%20de%20transporte%20y%20mudanzas."
+                          href="https://wa.me/34677820093?text=Hola,%20me%20interesan%20vuestros%20servicios%20de%20transporte%20y%20mudanzas."
                         >
                           Contactar
                         </Button>

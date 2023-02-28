@@ -73,11 +73,11 @@ function PricingSection(props) {
               title="Premium"
               pricing={
                 <span>
-                  30.00€
+                  25.00€
                   <Typography display="inline"> / hora</Typography>
                 </span>
               }
-              features={["Servicio de transporte, precio fijo por hora.", "Transportista ayuda con la mudanza.", "Incluye carro para cargas pesadas."]}
+              features={["Servicio de transporte, precio fijo por hora.", "Transportista ayuda con la mudanza.", "Opción 2 operarios: 30€/h"]}
             />
           </Grid>
         
