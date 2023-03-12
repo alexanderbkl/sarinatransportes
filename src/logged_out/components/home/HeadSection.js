@@ -106,7 +106,7 @@ function HeadSection(props) {
   const { classes, theme, width } = props;
   return (
     <Fragment>
-      <div  style={{ backgroundColor: "#000428", display: "flex" }}>
+      <div style={{ backgroundColor: "#000428", display: "flex" }}>
         {/*Create a text next to logo saying "MUDANZAS SARINA" */}
         <Typography
           variant="h4"
@@ -119,7 +119,7 @@ function HeadSection(props) {
         <img
           src={logoImage}
           alt="logo"
-          style={{ margin: "10px", display: "flex", justifyContent: "end", alignItems: "end"}}
+          style={{ margin: "10px", display: "flex", justifyContent: "end", alignItems: "end" }}
           className={classes.image}
         />
 
@@ -131,17 +131,15 @@ function HeadSection(props) {
 
 
 
-      <div  className={classNames("lg-p-top", classes.wrapper)}>
+      <div className={classNames("lg-p-top", classes.wrapper)}>
 
-        <div     className={classNames("container-fluid", classes.container)}>
+        <div className={classNames("container-fluid", classes.container)}>
 
-          <Box display="flex" justifyContent="center" className="row"               background-color="#ffeeff"
->
+          <Box display="flex" justifyContent="center" className="row"
+          >
 
-            <Card style={{backgroundImage: "url("+mapImage+")"}}
+            <Card style={{ backgroundImage: "url(" + mapImage + ")" }}
               className={classes.card}
-              data-aos-delay="200"
-              data-aos="zoom-in"
 
             >
 
@@ -167,8 +165,8 @@ function HeadSection(props) {
                         <Typography
                           variant={isWidthUp("lg", width) ? "h3" : "h6"}
                         >
-                         <b>SARINA</b> es una empresa especializada en mudanzas y traslados de cualquier dimensión, garantizamos un servicio de calidad y adaptable dirigido a <b>particulares</b> y <b>empresas</b> ante un traslado de vivienda o de oficinas.
-                          
+                          <b>SARINA</b> es una empresa especializada en mudanzas y traslados de cualquier dimensión, garantizamos un servicio de calidad y adaptable dirigido a <b>particulares</b> y <b>empresas</b> ante un traslado de vivienda o de oficinas.
+
                         </Typography>
                       </Box>
                       <div>

@@ -26,7 +26,10 @@ const styles = {
  *  https://codepen.io/csspoints/pen/WNeOEqd
  */
 function WaveBorder(props) {
-  const id = String(Math.random());
+  let random = Math.random();
+  //Transform random to a string with letters only
+  random = random.toString(36).substring(2, 15) + random.toString(36).substring(2, 15);
+  const id = `wave-${random}`;
   const {
     className,
     lowerColor,
@@ -40,7 +43,6 @@ function WaveBorder(props) {
       <svg
         className={classes.waves}
         xmlns="http://www.w3.org/2000/svg"
-        xlink="http://www.w3.org/1999/xlink"
         viewBox="0 24 150 28"
         preserveAspectRatio="none"
         shapeRendering="auto"

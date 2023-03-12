@@ -65,19 +65,16 @@ function PricingSection(props) {
             xs={16}
             sm={12}
             lg={12}
-            data-aos="zoom-in-up"
-            data-aos-delay="200"
           >
             <PriceCard
               highlighted
               title="Premium"
               pricing={
                 <span>
-                  25.00€
-                  <Typography display="inline"> / hora</Typography>
+                  25.00€ / hora
                 </span>
               }
-              features={["Servicio de transporte, precio fijo por hora.", "Transportista ayuda con la mudanza.", "Opción 2 operarios: 30€/h"]}
+              features={["Servicio de transporte, precio fijo por hora.", "Transportista ayuda con la mudanza.", "Opcional con 2 operarios: 30€/h"]}
             />
           </Grid>
         

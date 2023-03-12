@@ -1,10 +1,8 @@
 import React, { memo, useState, useEffect, useCallback } from "react";
 import PropTypes from "prop-types";
-import AOS from "aos/dist/aos";
 import { withStyles } from "@material-ui/core";
 import NavBar from "./navigation/NavBar";
 import Footer from "./footer/Footer";
-import "aos/dist/aos.css";
 import CookieRulesDialog from "./cookies/CookieRulesDialog";
 import CookieConsent from "./cookies/CookieConsent";
 import dummyBlogPosts from "../dummy_data/blogPosts";
@@ -17,7 +15,6 @@ import PricingSection from './home/PricingSection';
 
 
 
-AOS.init({ once: true });
 
 const styles = (theme) => ({
   wrapper: {
@@ -128,15 +125,10 @@ function Main(props) {
       >
         <i class="fa fa-whatsapp whatsapp-icon" style={{
           marginTop: '16px',
-         
         }}></i>
       </a>
 
-      {!isCookieRulesDialogOpen && (
-        <CookieConsent
-          handleCookieRulesDialogOpen={handleCookieRulesDialogOpen}
-        />
-      )}
+
       <CookieRulesDialog
         open={isCookieRulesDialogOpen}
         onClose={handleCookieRulesDialogClose}

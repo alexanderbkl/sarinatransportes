@@ -44,7 +44,7 @@ const styles = theme => ({
   },
   footerLinks: {
     marginTop: theme.spacing(2.5),
-    marginBot: theme.spacing(1.5),
+    marginBottom: theme.spacing(1.5),
     color: theme.palette.common.white
   },
   infoIcon: {

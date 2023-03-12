@@ -49,10 +49,10 @@ export class testimonials extends Component {
           </div>
           <div className="section-title text-center">
             <h2>FOTOS</h2>
-            <img width="300px" height="300px" src={collage} alt="collage"/>
-            <img width="300px" height="300px" src={hind} alt="hind"/>
-            <img width="300px" height="300px" src={lateral} alt="lateral"/>
-            <img width="300px" height="300px" src={profile} alt="profile"/>
+            <img width="300" height="300" src={collage} alt="collage"/>
+            <img width="300" height="300" src={hind} alt="hind"/>
+            <img width="300" height="300" src={lateral} alt="lateral"/>
+            <img width="300" height="300" src={profile} alt="profile"/>
 
             <br/>
             <h2>Lo que dicen nuestros clientes</h2>

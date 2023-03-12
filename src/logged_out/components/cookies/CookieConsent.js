@@ -90,7 +90,6 @@ function CookieConsent(props) {
 
   return (
     <Snackbar
-      className={classes.snackbarContent}
       open={isVisible}
       message={
         <Typography className="text-white">
