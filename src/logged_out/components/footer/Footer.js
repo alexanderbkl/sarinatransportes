@@ -75,6 +75,25 @@ const styles = theme => ({
   }
 });
 
+  var dataLayer = window.dataLayer || [];
+  window.dataLayer = window.dataLayer || [];
+    function gtag() { dataLayer.push(arguments); }
+    gtag('js', new Date());
+
+    gtag('config', 'AW-11329806600');
+  function gtag_report_conversion(url) {
+  var callback = function () {
+    if (typeof(url) != 'undefined') {
+      window.location = url;
+    }
+  };
+  gtag('event', 'conversion', {
+      'send_to': 'AW-11329806600/GSfaCN2-pOgYEIjCvJoq',
+      'event_callback': callback
+  });
+  return false;
+}
+
 
 
 const socialIcons = [
@@ -124,6 +143,7 @@ function Footer(props) {
               {socialIcons.map((socialIcon, index) => (
                 <Box key={index} mr={index !== socialIcons.length - 1 ? 1 : 0}>
                   <IconButton
+                  onClick={() => gtag_report_conversion("https://sarinamudanzas.es")}
                     aria-label={socialIcon.label}
                     className={classes.socialIcon}
                     href={socialIcon.href}

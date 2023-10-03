@@ -41,7 +41,7 @@ export class testimonials extends Component {
                   {/*Email link */}<h3 style={{ color: 'whitesmoke' }}>Email:</h3>
                   <a href="mailto:sarinamudanzas@gmail.com">
                     sarinamudanzas@gmail.com</a>
-                  <h3 style={{ color: 'whitesmoke' }}>¡LLÁMANOS! <a href="tel:+34677820093">+34 677 82 00 93</a></h3>   </div>
+                  <h3 style={{ color: 'whitesmoke' }}>¡LLÁMANOS! <a href="tel:+34633583439">+34 677 82 00 93</a></h3>   </div>
               </div>
             </div>
             <br/>

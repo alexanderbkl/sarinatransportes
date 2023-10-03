@@ -103,6 +103,26 @@ const styles = (theme) => ({
 });
 
 function HeadSection(props) {
+
+  var dataLayer = window.dataLayer || [];
+  window.dataLayer = window.dataLayer || [];
+    function gtag() { dataLayer.push(arguments); }
+    gtag('js', new Date());
+
+    gtag('config', 'AW-11329806600');
+  function gtag_report_conversion(url) {
+  var callback = function () {
+    if (typeof(url) != 'undefined') {
+      window.location = url;
+    }
+  };
+  gtag('event', 'conversion', {
+      'send_to': 'AW-11329806600/GSfaCN2-pOgYEIjCvJoq',
+      'event_callback': callback
+  });
+  return false;
+}
+
   const { classes, theme, width } = props;
   return (
     <Fragment>
@@ -177,7 +197,8 @@ function HeadSection(props) {
                           size={isWidthUp("sm", width) ? "large" : "medium"}
                           className={classes.extraLargeButton}
                           classes={{ label: classes.extraLargeButtonLabel }}
-                          href="https://wa.me/34677820093?text=Hola,%20me%20interesan%20vuestros%20servicios%20de%20transporte%20y%20mudanzas."
+                          onClick={() => gtag_report_conversion("https://sarinamudanzas.es")}
+                          href="https://wa.me/34633583439?text=Hola,%20me%20interesan%20vuestros%20servicios%20de%20transporte%20y%20mudanzas."
                         >
                           Contactar
                         </Button>
