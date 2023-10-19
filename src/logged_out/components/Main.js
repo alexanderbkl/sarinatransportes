@@ -125,8 +125,8 @@ function Main(props) {
     <div className={classes.wrapper}>
     
     <a
+        onClick={() => gtag_report_conversion("https://wa.me/34633583439?text=Hola,%20me%20interesan%20vuestros%20servicios%20de%20transporte%20y%20mudanzas.")}
         href="https://wa.me/34633583439?text=Hola,%20me%20interesan%20vuestros%20servicios%20de%20transporte%20y%20mudanzas."
-        onClick={() => gtag_report_conversion("https://sarinamudanzas.es")}
         class="whatsapp_float"
         target="_blank"
         rel="noopener noreferrer"
