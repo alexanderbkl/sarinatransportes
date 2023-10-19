@@ -180,7 +180,7 @@ function HeadSection(props) {
                         <Typography
                           variant={isWidthUp("lg", width) ? "h2" : "h3"}
                         >
-                          Mudanza Económica Barcelona y Província
+                          Mudanzas y Transportes Económicos Barcelona y Província
                         </Typography>
                         <Typography
                           variant={isWidthUp("lg", width) ? "h3" : "h6"}
