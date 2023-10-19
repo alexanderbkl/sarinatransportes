@@ -180,12 +180,12 @@ function HeadSection(props) {
                         <Typography
                           variant={isWidthUp("lg", width) ? "h2" : "h3"}
                         >
-                          Mudanza Economica Barcelona Badalona y Provincia
+                          Mudanza Económica Barcelona y Província
                         </Typography>
                         <Typography
                           variant={isWidthUp("lg", width) ? "h3" : "h6"}
                         >
-                          <b>SARINA</b> es una empresa especializada en mudanzas y traslados de cualquier dimensión, garantizamos un servicio de calidad y adaptable dirigido a <b>particulares</b> y <b>empresas</b> ante un traslado de vivienda o de oficinas.
+                          <b>SARINA</b> es nuestra empresa especializada en mudanzas y traslados de cualquier dimensión, garantizamos un servicio de calidad y adaptable dirigido a <b>particulares</b> y <b>empresas</b> ante un traslado de vivienda o de oficinas.
 
                         </Typography>
                       </Box>

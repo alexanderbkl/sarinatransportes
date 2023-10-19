@@ -11,8 +11,8 @@ export class testimonials extends Component {
       <div id="testimonials">
         <div className="container">
           <div className="section-title text-center">
-            <h2>MUDANZA ECONOMICA BARCELONA BADALONA Y PROVINCIA</h2>
-            <p>Nuestra empresa garantiza una adecuada mudanza ,tanto en toda Catalunya así como nacionales e internacionales, de mayor o menor envergadura. Asegurarnos del extremo cuidado de la integridad de los enseres de nuestros clientes , la puntualidad y la seriedad de nuestro trabajo nos hace diferentes al resto</p>
+            <h2>MUDANZA ECONÓMICA BARCELONA Y PROVÍNCIA</h2>
+            <p>Nuestra empresa garantiza una adecuada mudanza, tanto en toda Cataluña así como nacionales e internacionales, de mayor o menor envergadura. Asegurarnos del extremo cuidado de la integridad de los enseres de nuestros clientes , la puntualidad y la seriedad de nuestro trabajo nos hace diferentes al resto</p>
             {/*Create a div with two columns, each has a title and a paragraph */}
 
 
